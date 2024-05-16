@@ -1,12 +1,5 @@
 <script>
+  import Navbar from "./Components/Navbar.svelte";
 </script>
 
-<main>
-  <div>
-    <h1>Weather App</h1>
-  </div>
-</main>
-
-<style>
-  
-</style>
+<Navbar />
