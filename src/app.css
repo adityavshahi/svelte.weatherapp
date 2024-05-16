@@ -1,4 +1,7 @@
 body {
   background-color: #e1b382;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
