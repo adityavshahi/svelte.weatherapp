@@ -10,7 +10,17 @@
         font-family: "M PLUS 1p",sans-serif;
         color: #4A0404;
         letter-spacing: 0.4rem;
+        margin-left: 1rem;
+    }
+
+    #nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 </style>
 
-<h1>Weather App</h1>
+<div id="nav">
+    <img src="./src/assets/vane.svg" alt="Vane" width="80px" height="80px"/>
+    <h1>Weather App</h1>
+</div>
