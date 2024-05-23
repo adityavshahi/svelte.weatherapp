@@ -22,5 +22,5 @@
 
 <div id="nav">
     <img src="./src/assets/vane.svg" alt="Vane" width="80px" height="80px"/>
-    <h1>Weather App</h1>
+    <h1>WEATHER~Y</h1>
 </div>
