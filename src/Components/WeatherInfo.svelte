@@ -1,5 +1,5 @@
 <script>
-
+  import Temprature from "./Temprature.svelte";
 </script>
 
 
@@ -13,5 +13,5 @@
 </style>
 
 <div id="weather-info">
-
+    <Temprature />
 </div>

@@ -1,7 +1,20 @@
 body {
-  background-color: #e1b382;
+  background-image: linear-gradient(
+    to bottom,
+    #062d69,
+    #005a97,
+    #008abc,
+    #00bad7,
+    #4cebea
+  );
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  color: whitesmoke;
 }
