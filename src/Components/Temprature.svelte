@@ -11,7 +11,7 @@
         font-size: 1.8rem;
         position: absolute;
         left: 27.5%;
-        top: 18%;
+        top: 23%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -27,5 +27,5 @@
 
 <div>
     <h1>{currentTemprature}{degreeSymbol} C</h1>
-    <p id="city-state">Pune,Maharashtra</p>
+    <p id="city-state">Pune, Maharashtra</p>
 </div>
