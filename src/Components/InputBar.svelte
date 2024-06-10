@@ -22,7 +22,7 @@
         font-size: 1.7rem;
         border: none;
         margin-right: 20px;
-        padding: 2px;
+        padding: 0px 10px;
     }
 
     #input-bar:focus {
@@ -34,6 +34,7 @@
         padding: 1rem;
         font-size: 1rem;
         border-radius: 8px;
+        cursor: pointer;
         background-color: aliceblue;
     }
 </style>
@@ -41,5 +42,5 @@
 
 <div id="input-div">
     <input id="input-bar" bind:value={city} type="text" placeholder="City">
-    <button on:click={searchCity} id="search-button">Go!</button>
+    <button on:click={searchCity} id="search-button">Search!</button>
 </div>
