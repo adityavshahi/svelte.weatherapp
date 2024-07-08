@@ -2,6 +2,7 @@
     let currentTemprature = 32;
     let feelsLikeTemprature = 33;
     let degreeSymbol = "\u00B0";
+    export let weatherData;
 </script>
 
 
@@ -28,13 +29,18 @@
         font-size: 2rem;
     }
 
+    #weather-type {
+        font-size: 1.5rem;
+    }
+
     
 </style>
     
 
 
 <div>
-    <h1>{currentTemprature}{degreeSymbol} C</h1>
-    <p id="city-state">Pune, Maharashtra</p>
-    <i>Feels Like : {feelsLikeTemprature}{degreeSymbol} C</i>
+    <h1>{weatherData.temprature}{degreeSymbol} C</h1>
+    <p id="weather-type">{weatherData.weatherType}</p>
+    <p id="city-state">{weatherData.cityName}, {weatherData.region}</p>
+    <i>Feels Like : {weatherData.feelslike}{degreeSymbol} C</i>
 </div>
