@@ -1,8 +1,15 @@
 <script>
+    import {createEventDispatcher} from 'svelte';
+    
+    const dispatch = createEventDispatcher();
     let city = '';
 
-    function searchCity() {
-        console.log(city);
+    function submitCity() {
+        if (city === '') {
+            alert("Enter a valid city name, field cannot be empty.");
+        } else {
+            dispatch('citySubmitted',{city});
+        }
         city = '';
     }
 </script>
@@ -42,5 +49,5 @@
 
 <div id="input-div">
     <input id="input-bar" bind:value={city} type="text" placeholder="City">
-    <button on:click={searchCity} id="search-button">Search!</button>
+    <button on:click={submitCity} id="search-button">Search!</button>
 </div>
