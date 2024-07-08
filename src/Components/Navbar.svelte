@@ -21,6 +21,6 @@
 </style>
 
 <div id="nav">
-    <img src="./src/assets/vane.svg" alt="Vane" width="80px" height="80px"/>
+    <img src="./vane.svg" alt="Vane" width="80px" height="80px"/>
     <h1 style="color: whitesmoke;">WEATHER~Y</h1>
 </div>
